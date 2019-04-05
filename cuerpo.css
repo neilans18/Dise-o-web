@@ -1,0 +1,147 @@
+#cuerpo{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+.mitad1{
+    position:absolute;
+    width: 100%;
+    height:100% ;
+    top: 0;
+    overflow: hidden;
+    
+    
+}
+#cuerpo img{
+    margin-bottom:10px;
+}
+h2{
+
+    font-size:40px;
+}
+h3{
+    font-size: 20px;
+    margin-top:10%;
+}
+.imagen{
+ width:200px;
+ top: 0;
+ left: 0; 
+ right:0;
+ bottom: 0;
+ margin: auto;
+ overflow: hidden;
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+    border:4px solid black;
+    
+}
+#demostracion{
+    position: relative;
+    width: 100%;
+    height:300px;
+    
+}
+#demostracion p{
+    position: relative;
+}
+.imagendeslizar{
+    position: absolute;
+    top: 0;
+    left: 0; 
+    right:0;
+    bottom: 0;
+    margin: auto;
+    width: 90%;
+    height:300px;
+    overflow: hidden;
+   border-radius:30px;
+}
+#demostracion img{
+    width:100%;
+    height:100%;
+    border-radius:30px;
+
+}
+.slash1,.slash2,.slash3{
+    width:150px;
+    height:25px;
+    
+}
+.slash1{
+position: absolute;
+top:40%;
+left:-40%;
+animation: mover1 10s infinite;
+font-size: 25px;
+}
+.slash2{
+    position: absolute;
+    top: -110%;
+    left: 0; 
+    right:0;
+    bottom: 0;
+    margin: auto;
+    animation: mover2 10s infinite;
+    font-size: 25px;
+}
+.slash3{
+    position: absolute;
+    top:40%;
+    right:-40%;
+    animation: mover3 10s infinite;
+    font-size: 25px;
+}
+@keyframes mover1{
+    0%{left:-40%;}
+    20%{left:-40%;}
+    60%{left:8%;}
+    80%{left:8%;}
+    100%{left:-40%;}
+}
+@keyframes mover2{
+    0%{top:-110%}
+    20%{top:-110%}
+    60%{top:-12%;}
+    80%{top:-12%}
+    100%{top:-110%;}
+}
+@keyframes mover3{
+    0%{right:-40%;}
+    20%{right:-40%;}
+    60%{right:8%;}
+    80%{right:8%;}
+    100%{right:-40%;}
+}
+
+nav{
+    animation: gomitas 14s infinite;
+}
+@keyframes gomitas{
+    0%{margin-top:0;}
+    10%{margin-top:0;}
+    25%{margin-top:-211px;}
+    40%{margin-top:-211px;}
+    60%{margin-top:-420px;}
+    70%{margin-top:-420px;}
+    80%{margin-top:-207px;}
+    90%{margin-top:-207px;}
+}
+#dulces{
+    display: none;
+}
+#dulcess{
+    display: none;
+}
+#dulc{
+    display: none;
+}
+#dulcees{
+    display: none;
+}
+.imagendeslizar2{
+    display:none;
+}

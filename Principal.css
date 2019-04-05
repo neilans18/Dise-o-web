@@ -1,0 +1,43 @@
+@import url(cuerpo.css);
+@import url(Banner.css);
+@import url(fontello.css);
+@import url(footer.css);
+@import url(Responsive.css);
+*{
+font-family: forma-djr-display, sans-serif;
+font-weight: 400;
+font-style: normal;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header {
+ width: 100%;
+ height: 40px;
+ background: rgb(0, 0, 0);
+ color: rgb(255, 255, 255);
+ position: fixed;
+ top: 0;
+ left: 0;
+z-index: 100;
+}
+header a{
+    font-size:40px;
+    position: absolute;
+    top: 0;
+    left:10px;
+    bottom: 0;
+    right: 0;
+    margin:auto;
+    text-decoration: none;
+    
+}
+section{
+    width:100%;
+    margin-bottom:25px;
+}
+div{
+    height:33.3%;
+    text-align: center;
+   
+}

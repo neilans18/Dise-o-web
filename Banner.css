@@ -1,0 +1,54 @@
+#banner{
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    height:300px;
+    }
+    #banner img{
+        width:100%;
+        height:100%;
+        
+    }
+    .texto-principal-1{
+        position:absolute;
+        top: 30%;
+        text-align: center;
+        width:100%;
+        height:50px;
+    }
+    .texto-principal-1 h1{
+        top: 35%;
+        text-align: center;
+        font-size:50px;
+        height:50px;
+        width:100%;
+        line-height: 50px;
+    }
+    .textomovimiento{
+        position:absolute;
+        top: 65%;
+        text-align: center;
+        font-size:25px;
+        height:26px;
+        width:100%;
+        line-height: 25px;
+        overflow: hidden;
+    }
+    .textomovimiento ul{
+        list-style: none;
+        padding-left:0px;
+        animation: subir 10s infinite
+    }
+    @keyframes subir{
+     0%{margin-top:0px;}
+     20%{margin-top:0px;}
+     25%{margin-top:-25px;}
+     45%{margin-top:-25px;}
+     50%{margin-top:-50px;}
+     70%{margin-top:-50px;}
+     75%{margin-top:-25px;}
+     95%{margin-top:-25px;}
+     100%{margin-top:0;}
+
+
+    }

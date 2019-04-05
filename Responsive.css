@@ -1,0 +1,176 @@
+@media (min-width:480px){
+    .texto-principal-1 h1{
+        font-size:80px;
+    }
+}
+@media (min-width:760px){
+    #banner{
+        height:400px;
+        overflow: hidden;
+    }
+    #banner img{
+        height: auto;
+    }
+    .texto-principal-1 h1{
+        line-height: 80px;
+        height:80px;
+        font-size:80px;
+    }
+    .texto-principal-1{
+        line-height: 80px;
+        height:80px;
+        font-size:80px;
+    }
+}
+@media (min-width:750px){
+    .mitad1{
+        position:absolute;
+        width: 100%;
+        height:100% ;
+        top: 0;
+        overflow: hidden;
+        
+    }
+    .imagen{
+        width:97%;
+
+    }
+    h3{
+    font-size: 28px;
+    margin-top:50px;
+    }
+    nav{
+        display:flex;
+        width:100%;
+        height:190px; 
+    }
+    @keyframes gomitas{
+        0%{margin-left:0;}
+        10%{margin-left:0;}
+        25%{margin-left:-211px;}
+        40%{margin-left:-211px;}
+        60%{margin-left:-420px;}
+        70%{margin-left:-420px;}
+        80%{margin-left:-207px;}
+        90%{margin-left:-207px;}
+    }
+    #gomita{
+        width:200px;
+        height: 100%;
+        margin-left:35px;
+
+    }
+    #confite{
+        width:200px;
+        height: 100%;
+        margin-left:35px;
+    }
+    #dulce{
+        width:200px;
+        height: 100%;
+        margin-left:35px; 
+    }   
+    #dulces{
+        width:200px;
+        height: 100%;
+        margin-left:35px; 
+        display:block;
+
+    }
+    #dulcess{
+        width:200px;
+        height: 100%;
+        margin-left:35px; 
+        display:block;
+    }
+    #dulc{
+        width:200px;
+        height: 100%;
+        margin-left:35px; 
+        display:block;
+    }
+    #dulcees{
+        width:200px;
+        height: 100%;
+        margin-left:35px; 
+        display:block;
+    }
+    .imagendeslizar{
+            position: absolute;
+            top: 0;
+            left: 50%; 
+            right:0;
+            bottom: 0;
+            margin: auto;
+            width: 40%;
+            height:300px;
+            overflow: hidden;
+           border-radius:30px;
+        }
+        .imagendeslizar2{
+            position: absolute;
+            top: 0;
+            left: 0; 
+            right:50%;
+            bottom: 0;
+            margin: auto;
+            width: 40%;
+            height:300px;
+            overflow: hidden;
+           border-radius:30px;
+        }
+        .slash4,.slash5,.slash6{
+            width:150px;
+            height:25px;
+            
+        }
+            .slash4{
+            position: absolute;
+            top:40%;
+            left:-40%;
+            animation: mover4 10s infinite;
+            font-size: 25px;
+            }
+            .slash5{
+                position: absolute;
+                top: -110%;
+                left: 0; 
+                right:0;
+                bottom: 0;
+                margin: auto;
+                animation: mover5 10s infinite;
+                font-size: 25px;
+            }
+            .slash6{
+                position: absolute;
+                top:40%;
+                right:-40%;
+                animation: mover6 10s infinite;
+                font-size: 25px;
+            }
+        @keyframes mover4{
+            0%{left:-40%;}
+            20%{left:-40%;}
+            60%{left:8%;}
+            80%{left:8%;}
+            100%{left:-40%;}
+        }
+        @keyframes mover5{
+            0%{top:-110%}
+            20%{top:-110%}
+            60%{top:-12%;}
+            80%{top:-12%}
+            100%{top:-110%;}
+        }
+        @keyframes mover6{
+            0%{right:-40%;}
+            20%{right:-40%;}
+            60%{right:8%;}
+            80%{right:8%;}
+            100%{right:-40%;}
+        }
+        .imagendeslizar2{
+            display:inherit;
+        }
+}
+

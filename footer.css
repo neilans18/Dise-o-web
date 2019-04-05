@@ -1,0 +1,21 @@
+.final{
+    position: relative;
+}
+#cont{
+position: absolute;;
+top: 20%;
+left: 0; 
+right:0;
+bottom: 0;
+margin: auto;
+font-size: 20px;
+}
+#icon{
+position: absolute;;
+top: 40%;
+left: 0; 
+right:9px;
+bottom: 0;
+margin: auto;
+font-size: 20px;
+}
